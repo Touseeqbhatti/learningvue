@@ -1,15 +1,30 @@
 <template>
+<div>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <HomeComponents />
+  <ForLoopComponents />
+  <TemplateComponents />
+    <!-- <HomeComponents data="Touseeq"/> -->
+    
+
+</div>
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import HomeComponents from './components/HomeComponents.vue'
+import ForLoopComponents from './components/ForLoopComponents.vue'
+import TemplateComponents from './components/TemplateComponents.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld,
+    HomeComponents,
+    ForLoopComponents,
+    TemplateComponents
   }
 }
 </script>
